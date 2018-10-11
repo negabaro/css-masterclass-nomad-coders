@@ -8,5 +8,15 @@
     "start": "parcel index.html"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-preset-env": "^6.1.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
 }
